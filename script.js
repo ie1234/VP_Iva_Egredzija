@@ -1,7 +1,7 @@
-// ─── Podaci za publisher filter (line chart) ──────────────────────────────────
+//Podaci za publisher filter
 const PUBLISHER_DATA = {"Activision": [{"release_year": 1980, "total_sales": 1.28}, {"release_year": 1981, "total_sales": 2.37}, {"release_year": 1982, "total_sales": 4.11}, {"release_year": 1983, "total_sales": 3.73}, {"release_year": 1985, "total_sales": 0.45}, {"release_year": 1987, "total_sales": 0.65}, {"release_year": 1988, "total_sales": 0.98}, {"release_year": 1989, "total_sales": 0.47}, {"release_year": 1997, "total_sales": 0.99}, {"release_year": 1998, "total_sales": 6.52}, {"release_year": 1999, "total_sales": 9.66}, {"release_year": 2000, "total_sales": 12.99}, {"release_year": 2001, "total_sales": 17.32}, {"release_year": 2002, "total_sales": 21.1}, {"release_year": 2003, "total_sales": 17.26}, {"release_year": 2004, "total_sales": 27.65}, {"release_year": 2005, "total_sales": 25.11}, {"release_year": 2006, "total_sales": 16.39}, {"release_year": 2007, "total_sales": 34.5}, {"release_year": 2008, "total_sales": 55.49}, {"release_year": 2009, "total_sales": 64.18}, {"release_year": 2010, "total_sales": 51.42}, {"release_year": 2011, "total_sales": 41.63}, {"release_year": 2012, "total_sales": 42.39}, {"release_year": 2013, "total_sales": 37.28}, {"release_year": 2014, "total_sales": 39.74}, {"release_year": 2015, "total_sales": 36.35}, {"release_year": 2016, "total_sales": 15.67}, {"release_year": 2017, "total_sales": 31.53}, {"release_year": 2018, "total_sales": 19.11}], "Electronic Arts": [{"release_year": 1995, "total_sales": 1.84}, {"release_year": 1996, "total_sales": 3.22}, {"release_year": 1997, "total_sales": 7.38}, {"release_year": 1998, "total_sales": 6.25}, {"release_year": 1999, "total_sales": 18.48}, {"release_year": 2000, "total_sales": 11.58}, {"release_year": 2001, "total_sales": 13.43}, {"release_year": 2002, "total_sales": 42.99}, {"release_year": 2003, "total_sales": 39.08}, {"release_year": 2004, "total_sales": 30.25}, {"release_year": 2005, "total_sales": 26.54}, {"release_year": 2006, "total_sales": 22.73}, {"release_year": 2007, "total_sales": 46.18}, {"release_year": 2008, "total_sales": 55.05}, {"release_year": 2009, "total_sales": 39.43}, {"release_year": 2010, "total_sales": 43.17}, {"release_year": 2011, "total_sales": 39.98}, {"release_year": 2012, "total_sales": 18.78}, {"release_year": 2013, "total_sales": 25.44}, {"release_year": 2014, "total_sales": 19.18}, {"release_year": 2015, "total_sales": 20.88}, {"release_year": 2016, "total_sales": 35.34}, {"release_year": 2017, "total_sales": 13.75}, {"release_year": 2018, "total_sales": 16.74}], "EA Sports": [{"release_year": 1996, "total_sales": 3.56}, {"release_year": 1997, "total_sales": 9.76}, {"release_year": 1998, "total_sales": 13.24}, {"release_year": 1999, "total_sales": 14.55}, {"release_year": 2000, "total_sales": 11.43}, {"release_year": 2001, "total_sales": 16.58}, {"release_year": 2002, "total_sales": 22.06}, {"release_year": 2003, "total_sales": 20.45}, {"release_year": 2004, "total_sales": 26.8}, {"release_year": 2005, "total_sales": 28.22}, {"release_year": 2006, "total_sales": 23.11}, {"release_year": 2007, "total_sales": 18.5}, {"release_year": 2008, "total_sales": 14.57}, {"release_year": 2009, "total_sales": 30.71}, {"release_year": 2010, "total_sales": 35.3}, {"release_year": 2011, "total_sales": 25.67}, {"release_year": 2012, "total_sales": 28.51}, {"release_year": 2013, "total_sales": 24.83}, {"release_year": 2014, "total_sales": 28.12}, {"release_year": 2015, "total_sales": 24.37}, {"release_year": 2016, "total_sales": 9.23}, {"release_year": 2017, "total_sales": 22.07}, {"release_year": 2018, "total_sales": 5.56}], "Ubisoft": [{"release_year": 1995, "total_sales": 3.03}, {"release_year": 1999, "total_sales": 0.64}, {"release_year": 2001, "total_sales": 0.96}, {"release_year": 2002, "total_sales": 9.21}, {"release_year": 2003, "total_sales": 10.5}, {"release_year": 2004, "total_sales": 11.72}, {"release_year": 2005, "total_sales": 11.01}, {"release_year": 2006, "total_sales": 9.43}, {"release_year": 2007, "total_sales": 37.27}, {"release_year": 2008, "total_sales": 46.05}, {"release_year": 2009, "total_sales": 30.42}, {"release_year": 2010, "total_sales": 23.89}, {"release_year": 2011, "total_sales": 28.92}, {"release_year": 2012, "total_sales": 34.87}, {"release_year": 2013, "total_sales": 26.09}, {"release_year": 2014, "total_sales": 39.86}, {"release_year": 2015, "total_sales": 14.95}, {"release_year": 2016, "total_sales": 22.2}, {"release_year": 2017, "total_sales": 17.77}, {"release_year": 2018, "total_sales": 12.78}], "Sony Computer Entertainment": [{"release_year": 1995, "total_sales": 4.59}, {"release_year": 1996, "total_sales": 10.36}, {"release_year": 1997, "total_sales": 10.27}, {"release_year": 1998, "total_sales": 14.36}, {"release_year": 1999, "total_sales": 15.56}, {"release_year": 2000, "total_sales": 17.93}, {"release_year": 2001, "total_sales": 15.05}, {"release_year": 2002, "total_sales": 13.24}, {"release_year": 2003, "total_sales": 9.85}, {"release_year": 2004, "total_sales": 16.36}, {"release_year": 2005, "total_sales": 18.04}, {"release_year": 2006, "total_sales": 13.19}, {"release_year": 2007, "total_sales": 21.26}, {"release_year": 2008, "total_sales": 16.36}, {"release_year": 2009, "total_sales": 24.18}, {"release_year": 2010, "total_sales": 14.3}, {"release_year": 2011, "total_sales": 11.86}, {"release_year": 2012, "total_sales": 12.31}, {"release_year": 2013, "total_sales": 1.14}, {"release_year": 2014, "total_sales": 8.36}, {"release_year": 2015, "total_sales": 1.62}], "THQ": [{"release_year": 1997, "total_sales": 1.69}, {"release_year": 1998, "total_sales": 7.45}, {"release_year": 1999, "total_sales": 2.4}, {"release_year": 2000, "total_sales": 13.89}, {"release_year": 2001, "total_sales": 17.31}, {"release_year": 2002, "total_sales": 15.9}, {"release_year": 2003, "total_sales": 23.29}, {"release_year": 2004, "total_sales": 27.11}, {"release_year": 2005, "total_sales": 20.85}, {"release_year": 2006, "total_sales": 16.99}, {"release_year": 2007, "total_sales": 28.44}, {"release_year": 2008, "total_sales": 22.15}, {"release_year": 2009, "total_sales": 25.31}, {"release_year": 2010, "total_sales": 15.49}, {"release_year": 2011, "total_sales": 18.28}, {"release_year": 2012, "total_sales": 6.31}], "Rockstar Games": [{"release_year": 1999, "total_sales": 3.81}, {"release_year": 2000, "total_sales": 4.19}, {"release_year": 2001, "total_sales": 18.16}, {"release_year": 2002, "total_sales": 17.91}, {"release_year": 2003, "total_sales": 9.75}, {"release_year": 2004, "total_sales": 2.0}, {"release_year": 2005, "total_sales": 19.6}, {"release_year": 2006, "total_sales": 10.53}, {"release_year": 2007, "total_sales": 3.33}, {"release_year": 2008, "total_sales": 30.01}, {"release_year": 2009, "total_sales": 5.01}, {"release_year": 2010, "total_sales": 10.88}, {"release_year": 2011, "total_sales": 12.51}, {"release_year": 2012, "total_sales": 3.49}, {"release_year": 2013, "total_sales": 36.18}, {"release_year": 2014, "total_sales": 28.11}, {"release_year": 2017, "total_sales": 1.05}, {"release_year": 2018, "total_sales": 19.71}], "Sega": [{"release_year": 1983, "total_sales": 0.4}, {"release_year": 1990, "total_sales": 2.6}, {"release_year": 1994, "total_sales": 3.58}, {"release_year": 1995, "total_sales": 3.77}, {"release_year": 1996, "total_sales": 4.17}, {"release_year": 1997, "total_sales": 1.94}, {"release_year": 1998, "total_sales": 0.53}, {"release_year": 1999, "total_sales": 4.76}, {"release_year": 2000, "total_sales": 3.74}, {"release_year": 2001, "total_sales": 2.68}, {"release_year": 2002, "total_sales": 10.92}, {"release_year": 2003, "total_sales": 4.49}, {"release_year": 2004, "total_sales": 11.48}, {"release_year": 2005, "total_sales": 2.37}, {"release_year": 2006, "total_sales": 3.81}, {"release_year": 2007, "total_sales": 9.73}, {"release_year": 2008, "total_sales": 28.29}, {"release_year": 2009, "total_sales": 15.3}, {"release_year": 2010, "total_sales": 19.4}, {"release_year": 2011, "total_sales": 6.86}, {"release_year": 2012, "total_sales": 6.35}, {"release_year": 2013, "total_sales": 2.27}, {"release_year": 2014, "total_sales": 1.94}, {"release_year": 2015, "total_sales": 0.38}, {"release_year": 2016, "total_sales": 0.33}, {"release_year": 2017, "total_sales": 2.87}, {"release_year": 2018, "total_sales": 1.08}], "Konami": [{"release_year": 1986, "total_sales": 3.76}, {"release_year": 1987, "total_sales": 1.23}, {"release_year": 1988, "total_sales": 0.93}, {"release_year": 1990, "total_sales": 0.85}, {"release_year": 1991, "total_sales": 0.63}, {"release_year": 1992, "total_sales": 1.87}, {"release_year": 1994, "total_sales": 0.77}, {"release_year": 1995, "total_sales": 0.58}, {"release_year": 1996, "total_sales": 2.94}, {"release_year": 1997, "total_sales": 2.32}, {"release_year": 1998, "total_sales": 3.96}, {"release_year": 1999, "total_sales": 7.45}, {"release_year": 2000, "total_sales": 3.89}, {"release_year": 2001, "total_sales": 7.75}, {"release_year": 2002, "total_sales": 4.57}, {"release_year": 2003, "total_sales": 14.17}, {"release_year": 2004, "total_sales": 7.5}, {"release_year": 2005, "total_sales": 9.84}, {"release_year": 2006, "total_sales": 9.9}, {"release_year": 2007, "total_sales": 11.66}, {"release_year": 2008, "total_sales": 21.03}, {"release_year": 2009, "total_sales": 11.73}, {"release_year": 2010, "total_sales": 11.73}, {"release_year": 2011, "total_sales": 4.55}, {"release_year": 2012, "total_sales": 0.47}, {"release_year": 2018, "total_sales": 0.5}], "Nintendo": [{"release_year": 1985, "total_sales": 1.33}, {"release_year": 1986, "total_sales": 1.49}, {"release_year": 1992, "total_sales": 1.8}, {"release_year": 1993, "total_sales": 1.47}, {"release_year": 1994, "total_sales": 0.87}, {"release_year": 1995, "total_sales": 2.43}, {"release_year": 1996, "total_sales": 1.17}, {"release_year": 1997, "total_sales": 2.32}, {"release_year": 1998, "total_sales": 2.49}, {"release_year": 1999, "total_sales": 0.38}, {"release_year": 2000, "total_sales": 2.84}, {"release_year": 2001, "total_sales": 6.39}, {"release_year": 2002, "total_sales": 2.03}, {"release_year": 2003, "total_sales": 4.8}, {"release_year": 2004, "total_sales": 11.39}, {"release_year": 2005, "total_sales": 11.91}, {"release_year": 2006, "total_sales": 5.31}, {"release_year": 2007, "total_sales": 5.06}, {"release_year": 2008, "total_sales": 2.78}, {"release_year": 2009, "total_sales": 4.37}, {"release_year": 2010, "total_sales": 6.65}, {"release_year": 2011, "total_sales": 3.91}, {"release_year": 2012, "total_sales": 4.89}, {"release_year": 2013, "total_sales": 2.85}, {"release_year": 2014, "total_sales": 4.19}, {"release_year": 2015, "total_sales": 3.43}, {"release_year": 2016, "total_sales": 5.17}, {"release_year": 2017, "total_sales": 5.69}, {"release_year": 2018, "total_sales": 2.87}, {"release_year": 2019, "total_sales": 0.81}]};
 
-// Top 15 developera za bubble chart filter
+//Top 15 developera za bubble chart filter
 const TOP_DEVELOPERS = ["EA Canada","EA Tiburon","Traveller's Tales","Ubisoft Montreal","Konami","Capcom","Visual Concepts","Namco","Vicarious Visions","EA Redwood Shores","Treyarch","Ubisoft","Neversoft Entertainment","Avalanche Software","Maxis"];
 
 const tooltip = d3.select("#tooltip");
@@ -31,14 +31,14 @@ Promise.all([
   drawWorldMap(regionData, worldData);
 });
 
-// ─── LINE CHART s filterom po publisheru ─────────────────────────────────────
+//LINE CHART s filterom po publisheru
 function drawLineChart(allData) {
   const width = 1050, height = 420;
   const margin = { top: 30, right: 40, bottom: 60, left: 80 };
   const publishers = Object.keys(PUBLISHER_DATA);
   const pubColors = d3.scaleOrdinal(d3.schemeTableau10).domain(publishers);
 
-  // Filter UI — ubacuje se ISPRED svg-a
+  //Filter UI — ubacuje se ISPRED svg-a
   const wrapper = d3.select("#lineChart");
   const bar = wrapper.append("div").attr("class", "filter-bar");
   bar.append("span").attr("class", "filter-label").text("Publisher:");
@@ -104,7 +104,7 @@ function drawLineChart(allData) {
   update("all");
 }
 
-// ─── GENRE CHART ─────────────────────────────────────────────────────────────
+//GENRE CHART
 function drawGenreChart(data) {
   const width = 1050;
   const height = 460;
@@ -170,7 +170,7 @@ function drawGenreChart(data) {
     .text("Sales in millions");
 }
 
-// ─── REGION CHART ─────────────────────────────────────────────────────────────
+//REGION CHART
 function drawRegionChart(data) {
   const width = 1050;
   const height = 360;
@@ -233,7 +233,7 @@ function drawRegionChart(data) {
     .text("Sales in millions");
 }
 
-// ─── BUBBLE CHART ───────────────────
+//BUBBLE CHART
 function drawBubbleChart(initialData, allGames) {
   const width = 1050;
   const height = 760;
@@ -278,7 +278,7 @@ function drawBubbleChart(initialData, allGames) {
   let currentMaxYear = maxAvailableYear;
   let simulation;
 
-  // Genre filter
+  //Genre filter
   const genreBar = container.append("div")
     .attr("class", "filter-bar");
 
@@ -301,7 +301,7 @@ function drawBubbleChart(initialData, allGames) {
       .text(genre);
   });
 
-  // Developer filter
+  //Developer filter
   const devBar = container.append("div")
     .attr("class", "filter-bar");
 
@@ -324,7 +324,7 @@ function drawBubbleChart(initialData, allGames) {
       .text(dev);
   });
 
-  // Year filter
+  //Year filter
   const yearBar = container.append("div")
     .attr("class", "filter-bar");
 
@@ -353,7 +353,7 @@ function drawBubbleChart(initialData, allGames) {
     .attr("value", maxAvailableYear)
     .attr("class", "year-input");
     
-  // Critic score slider
+  //Critic score slider
   const scoreBar = container.append("div")
     .attr("class", "filter-bar")
     .style("margin-bottom", "16px");
@@ -518,7 +518,7 @@ function drawBubbleChart(initialData, allGames) {
 
 }
 
-// ─── TOOLTIP ─────────────────────────────────────────────────────────────────
+//TOOLTIP
 function showTooltip(event, html) {
   tooltip
     .style("display", "block")
@@ -531,7 +531,7 @@ function hideTooltip() {
   tooltip.style("display", "none");
 }
 
-// ─── WORLD MAP ────────────────────────────────────────────────────────────────
+//WORLD MAP
 function drawWorldMap(regionData, worldData) {
   const width = 1050;
   const height = 560;
