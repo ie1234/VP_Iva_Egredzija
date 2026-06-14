@@ -1,0 +1,22 @@
+[
+  {
+    "region": "North America",
+    "key": "na_sales",
+    "sales": 3339.93
+  },
+  {
+    "region": "Japan",
+    "key": "jp_sales",
+    "sales": 684.99
+  },
+  {
+    "region": "Europe / PAL",
+    "key": "pal_sales",
+    "sales": 1914.34
+  },
+  {
+    "region": "Other",
+    "key": "other_sales",
+    "sales": 650.49
+  }
+]

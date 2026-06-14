@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evolution of Video Games</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <header>
+    <h1>Evolution of Video Game Sales</h1>
+    <p>Interactive visualization of video game sales from 1980 to 2020</p>
+  </header>
+
+  <main>
+    <div class="dashboard-wrapper">
+      <div class="dashboard-inner">
+        <section class="card">
+          <h2>Total Sales Over Time</h2>
+          <div id="lineChart"></div>
+        </section>
+
+        <section class="card">
+          <h2>Sales by Genre</h2>
+          <div id="genreChart"></div>
+        </section>
+
+        <section class="card">
+          <h2>Regional Sales</h2>
+          <div id="regionChart"></div>
+        </section>
+
+        <section class="card">
+          <h2>Top Selling Games</h2>
+          <div id="bubbleChart"></div>
+        </section>
+
+        <section class="card">
+            <h2>World Map by Sales Region</h2>
+            <div id="worldMap"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div id="tooltip"></div>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
